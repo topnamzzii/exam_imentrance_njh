@@ -1,0 +1,2 @@
+rootProject.name='exam_imentrance_njh'
+include ':app'

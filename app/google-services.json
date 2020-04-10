@@ -1,0 +1,911 @@
+{
+  "project_info": {
+    "project_number": "866470999866",
+    "firebase_url": "https://imarker.firebaseio.com",
+    "project_id": "imarker",
+    "storage_bucket": "imarker.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:866470999866:android:980a1a0299e9c9f0ce0203",
+        "android_client_info": {
+          "package_name": "com.example.exam_blescan05"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "866470999866-5go6cmippepgtvhd6ibo5cii890jc8ja.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBf30OGR3a35a5kN1JJvF04QDojgwcJKeY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "866470999866-5go6cmippepgtvhd6ibo5cii890jc8ja.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "866470999866-pun0a55tiofaiedkb82ppudpn0fkt8hi.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "app.kst.imparents"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:866470999866:android:cc71c0aa1186fe3cce0203",
+        "android_client_info": {
+          "package_name": "com.example.exam_example_imparent_pds"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "866470999866-5go6cmippepgtvhd6ibo5cii890jc8ja.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBf30OGR3a35a5kN1JJvF04QDojgwcJKeY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "866470999866-5go6cmippepgtvhd6ibo5cii890jc8ja.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "866470999866-pun0a55tiofaiedkb82ppudpn0fkt8hi.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "app.kst.imparents"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:866470999866:android:d90763159bf60fbbce0203",
+        "android_client_info": {
+          "package_name": "com.example.exam_imentrance_njh"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "866470999866-5go6cmippepgtvhd6ibo5cii890jc8ja.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBf30OGR3a35a5kN1JJvF04QDojgwcJKeY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "866470999866-5go6cmippepgtvhd6ibo5cii890jc8ja.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "866470999866-pun0a55tiofaiedkb82ppudpn0fkt8hi.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "app.kst.imparents"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:866470999866:android:3f82ebbc5d97bfc3ce0203",
+        "android_client_info": {
+          "package_name": "com.example.exam_imentrance_pds"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "866470999866-5go6cmippepgtvhd6ibo5cii890jc8ja.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBf30OGR3a35a5kN1JJvF04QDojgwcJKeY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "866470999866-5go6cmippepgtvhd6ibo5cii890jc8ja.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "866470999866-pun0a55tiofaiedkb82ppudpn0fkt8hi.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "app.kst.imparents"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:866470999866:android:cdb64bc2cfca7926ce0203",
+        "android_client_info": {
+          "package_name": "com.example.exam_imparent_njh"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "866470999866-5go6cmippepgtvhd6ibo5cii890jc8ja.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBf30OGR3a35a5kN1JJvF04QDojgwcJKeY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "866470999866-5go6cmippepgtvhd6ibo5cii890jc8ja.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "866470999866-pun0a55tiofaiedkb82ppudpn0fkt8hi.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "app.kst.imparents"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:866470999866:android:0c6338de24f85531ce0203",
+        "android_client_info": {
+          "package_name": "com.example.exam_imteacher_njh"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "866470999866-5go6cmippepgtvhd6ibo5cii890jc8ja.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBf30OGR3a35a5kN1JJvF04QDojgwcJKeY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "866470999866-5go6cmippepgtvhd6ibo5cii890jc8ja.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "866470999866-pun0a55tiofaiedkb82ppudpn0fkt8hi.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "app.kst.imparents"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:866470999866:android:80840942ce3364cdce0203",
+        "android_client_info": {
+          "package_name": "com.example.exam_imteacher_pds"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "866470999866-5go6cmippepgtvhd6ibo5cii890jc8ja.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBf30OGR3a35a5kN1JJvF04QDojgwcJKeY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "866470999866-5go6cmippepgtvhd6ibo5cii890jc8ja.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "866470999866-pun0a55tiofaiedkb82ppudpn0fkt8hi.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "app.kst.imparents"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:866470999866:android:6d0ca87dfc85d00bce0203",
+        "android_client_info": {
+          "package_name": "com.example.example_bluetoothscan"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "866470999866-5go6cmippepgtvhd6ibo5cii890jc8ja.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBf30OGR3a35a5kN1JJvF04QDojgwcJKeY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "866470999866-5go6cmippepgtvhd6ibo5cii890jc8ja.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "866470999866-pun0a55tiofaiedkb82ppudpn0fkt8hi.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "app.kst.imparents"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:866470999866:android:1388748950fe024dce0203",
+        "android_client_info": {
+          "package_name": "kst.app.exam_blescan"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "866470999866-5go6cmippepgtvhd6ibo5cii890jc8ja.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBf30OGR3a35a5kN1JJvF04QDojgwcJKeY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "866470999866-5go6cmippepgtvhd6ibo5cii890jc8ja.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "866470999866-pun0a55tiofaiedkb82ppudpn0fkt8hi.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "app.kst.imparents"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:866470999866:android:c4cecd3e1295407fce0203",
+        "android_client_info": {
+          "package_name": "kst.app.exam_imentrance_khw"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "866470999866-5go6cmippepgtvhd6ibo5cii890jc8ja.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBf30OGR3a35a5kN1JJvF04QDojgwcJKeY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "866470999866-5go6cmippepgtvhd6ibo5cii890jc8ja.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "866470999866-pun0a55tiofaiedkb82ppudpn0fkt8hi.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "app.kst.imparents"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:866470999866:android:117325f598d3e12ace0203",
+        "android_client_info": {
+          "package_name": "kst.app.exam_imentrance_kjh"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "866470999866-5go6cmippepgtvhd6ibo5cii890jc8ja.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBf30OGR3a35a5kN1JJvF04QDojgwcJKeY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "866470999866-5go6cmippepgtvhd6ibo5cii890jc8ja.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "866470999866-pun0a55tiofaiedkb82ppudpn0fkt8hi.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "app.kst.imparents"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:866470999866:android:d8972f690ab2e794ce0203",
+        "android_client_info": {
+          "package_name": "kst.app.exam_imentrance_psb"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "866470999866-5go6cmippepgtvhd6ibo5cii890jc8ja.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBf30OGR3a35a5kN1JJvF04QDojgwcJKeY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "866470999866-5go6cmippepgtvhd6ibo5cii890jc8ja.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "866470999866-pun0a55tiofaiedkb82ppudpn0fkt8hi.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "app.kst.imparents"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:866470999866:android:cc35edee6136e8e7ce0203",
+        "android_client_info": {
+          "package_name": "kst.app.exam_imparents_khw"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "866470999866-5go6cmippepgtvhd6ibo5cii890jc8ja.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBf30OGR3a35a5kN1JJvF04QDojgwcJKeY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "866470999866-5go6cmippepgtvhd6ibo5cii890jc8ja.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "866470999866-pun0a55tiofaiedkb82ppudpn0fkt8hi.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "app.kst.imparents"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:866470999866:android:f2c329311f78b92bce0203",
+        "android_client_info": {
+          "package_name": "kst.app.exam_imparents_kjh"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "866470999866-5go6cmippepgtvhd6ibo5cii890jc8ja.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBf30OGR3a35a5kN1JJvF04QDojgwcJKeY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "866470999866-5go6cmippepgtvhd6ibo5cii890jc8ja.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "866470999866-pun0a55tiofaiedkb82ppudpn0fkt8hi.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "app.kst.imparents"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:866470999866:android:7fcbbb24ee719b1fce0203",
+        "android_client_info": {
+          "package_name": "kst.app.exam_imparents_psb"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "866470999866-5go6cmippepgtvhd6ibo5cii890jc8ja.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBf30OGR3a35a5kN1JJvF04QDojgwcJKeY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "866470999866-5go6cmippepgtvhd6ibo5cii890jc8ja.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "866470999866-pun0a55tiofaiedkb82ppudpn0fkt8hi.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "app.kst.imparents"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:866470999866:android:9b9c228f2bd46d35ce0203",
+        "android_client_info": {
+          "package_name": "kst.app.exam_imteacher_khw"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "866470999866-5go6cmippepgtvhd6ibo5cii890jc8ja.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBf30OGR3a35a5kN1JJvF04QDojgwcJKeY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "866470999866-5go6cmippepgtvhd6ibo5cii890jc8ja.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "866470999866-pun0a55tiofaiedkb82ppudpn0fkt8hi.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "app.kst.imparents"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:866470999866:android:79af9a3d6928a174ce0203",
+        "android_client_info": {
+          "package_name": "kst.app.exam_imteacher_kjh"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "866470999866-5go6cmippepgtvhd6ibo5cii890jc8ja.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBf30OGR3a35a5kN1JJvF04QDojgwcJKeY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "866470999866-5go6cmippepgtvhd6ibo5cii890jc8ja.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "866470999866-pun0a55tiofaiedkb82ppudpn0fkt8hi.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "app.kst.imparents"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:866470999866:android:7f394e2254bf0ed9ce0203",
+        "android_client_info": {
+          "package_name": "kst.app.exam_imteacher_psb"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "866470999866-5go6cmippepgtvhd6ibo5cii890jc8ja.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBf30OGR3a35a5kN1JJvF04QDojgwcJKeY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "866470999866-5go6cmippepgtvhd6ibo5cii890jc8ja.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "866470999866-pun0a55tiofaiedkb82ppudpn0fkt8hi.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "app.kst.imparents"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:866470999866:android:04d8c33ab419ae53ce0203",
+        "android_client_info": {
+          "package_name": "kst.app.example_im_refactoring"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "866470999866-5go6cmippepgtvhd6ibo5cii890jc8ja.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBf30OGR3a35a5kN1JJvF04QDojgwcJKeY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "866470999866-5go6cmippepgtvhd6ibo5cii890jc8ja.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "866470999866-pun0a55tiofaiedkb82ppudpn0fkt8hi.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "app.kst.imparents"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:866470999866:android:533b141a7ed28774",
+        "android_client_info": {
+          "package_name": "kst.app.imarker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "866470999866-5go6cmippepgtvhd6ibo5cii890jc8ja.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBf30OGR3a35a5kN1JJvF04QDojgwcJKeY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "866470999866-5go6cmippepgtvhd6ibo5cii890jc8ja.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "866470999866-pun0a55tiofaiedkb82ppudpn0fkt8hi.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "app.kst.imparents"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:866470999866:android:dc1743c5f42e1f2ece0203",
+        "android_client_info": {
+          "package_name": "kst.app.imentrance"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "866470999866-5go6cmippepgtvhd6ibo5cii890jc8ja.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBf30OGR3a35a5kN1JJvF04QDojgwcJKeY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "866470999866-5go6cmippepgtvhd6ibo5cii890jc8ja.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "866470999866-pun0a55tiofaiedkb82ppudpn0fkt8hi.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "app.kst.imparents"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:866470999866:android:7818de2f02777b44ce0203",
+        "android_client_info": {
+          "package_name": "kst.app.imentrance_release"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "866470999866-5go6cmippepgtvhd6ibo5cii890jc8ja.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBf30OGR3a35a5kN1JJvF04QDojgwcJKeY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "866470999866-5go6cmippepgtvhd6ibo5cii890jc8ja.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "866470999866-pun0a55tiofaiedkb82ppudpn0fkt8hi.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "app.kst.imparents"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:866470999866:android:04568c878821fe43ce0203",
+        "android_client_info": {
+          "package_name": "kst.app.imoutdoor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "866470999866-5go6cmippepgtvhd6ibo5cii890jc8ja.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBf30OGR3a35a5kN1JJvF04QDojgwcJKeY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "866470999866-5go6cmippepgtvhd6ibo5cii890jc8ja.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "866470999866-pun0a55tiofaiedkb82ppudpn0fkt8hi.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "app.kst.imparents"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:866470999866:android:e6538b7d466b6472ce0203",
+        "android_client_info": {
+          "package_name": "kst.app.imparents"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "866470999866-5go6cmippepgtvhd6ibo5cii890jc8ja.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBf30OGR3a35a5kN1JJvF04QDojgwcJKeY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "866470999866-5go6cmippepgtvhd6ibo5cii890jc8ja.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "866470999866-pun0a55tiofaiedkb82ppudpn0fkt8hi.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "app.kst.imparents"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:866470999866:android:189fc93f24f71203ce0203",
+        "android_client_info": {
+          "package_name": "kst.app.imteacher"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "866470999866-5go6cmippepgtvhd6ibo5cii890jc8ja.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBf30OGR3a35a5kN1JJvF04QDojgwcJKeY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "866470999866-5go6cmippepgtvhd6ibo5cii890jc8ja.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "866470999866-pun0a55tiofaiedkb82ppudpn0fkt8hi.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "app.kst.imparents"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
