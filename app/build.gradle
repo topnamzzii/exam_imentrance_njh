@@ -7,7 +7,7 @@ android {
 
     defaultConfig {
         applicationId "com.example.exam_imentrance_njh"
-        minSdkVersion 19
+        minSdkVersion 21
         targetSdkVersion 29
         versionCode 1
         versionName "1.0"
@@ -36,6 +36,9 @@ dependencies {
 
     implementation 'com.google.firebase:firebase-messaging:17.3.4'
     implementation 'com.google.firebase:firebase-core:16.0.4'
+
+    compile 'com.squareup.okhttp3:okhttp:3.2.0'
+    implementation project(':acsbt')
 
 }
 apply plugin: 'com.google.gms.google-services'
