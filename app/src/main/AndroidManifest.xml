@@ -21,13 +21,15 @@
         android:usesCleartextTraffic="true"
         android:theme="@style/AppTheme">
         <activity android:name="com.example.activity.MainActivity">
+            <meta-data android:name="longScanForcingEnabled" android:value="true"/> <!--30분이상 스캔 계속 사용가능하게하는 태그-->
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.example.activity.ReaderActivity">
+        <activity android:name="com.example.activity.ReaderActivityOriginal">
         </activity>
         <service android:name="com.example.fcm.FirebaseMessagingService">
             <intent-filter>

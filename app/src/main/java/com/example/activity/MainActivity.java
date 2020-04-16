@@ -72,10 +72,16 @@ public class MainActivity extends AppCompatActivity {
     private boolean mScanning; //스캔중인지 FLAG
     private LeDeviceListAdapter mLeDeviceListAdapter; // 스캔된 bt 기기 리스트를 보여주는 어댑터
     private BluetoothAdapter mBluetoothAdapter; // 블루투스 어댑터
-    public static final String SERIAL_NUMBER = ""; //특정 리더기만 매칭시키고싶을때 S/N끝자리 숫자 5개를 입력하면 됨.
+    public static final String SERIAL_NUMBER = "012505"; //특정 리더기만 매칭시키고싶을때 S/N끝자리 숫자 5개를 입력하면 됨.
     public static Boolean is_live_readeractivity; // 리더 액티비티가 살아있는지 우뮤
 
+    //flag
+    private boolean flag_continue_init; //webview_init 종료 프레그
+    private boolean flag_continue_refresh_beacon; //webview_refresh_beacon 종료 프레그
+    private boolean flag_continue_check_service; // NFC 리더기 연결체크 서비스 종료 프레그
+
     @Override
+
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         requestWindowFeature(Window.FEATURE_NO_TITLE);
@@ -98,6 +104,11 @@ public class MainActivity extends AppCompatActivity {
         this.URL_DOMAIN = getString(R.string.URL_DOMAIN);
         this.URL_INDEX_FULL = getString(R.string.URL_INDEX_FULL);
         this.URL_INDEX = getString(R.string.URL_INDEX);
+
+        // 모든 핸들러 종료
+        flag_continue_init = true;
+        flag_continue_refresh_beacon = true;
+        flag_continue_check_service = true;
 
         wv_entrance = (WebView) findViewById(R.id.wv01);
         tv_nfc_state = findViewById(R.id.tv_nfc_state);
@@ -148,7 +159,7 @@ public class MainActivity extends AppCompatActivity {
             @RequiresApi(api = Build.VERSION_CODES.LOLLIPOP)
             public void handleMessage(Message msg) {
 
-                if (msg.what == 0) {
+                if (msg.what == 0 && flag_continue_check_service) {
                     h_check_service.sendEmptyMessageDelayed(0, 1000);
 
                     if (flag_wv_load_finish && wv_entrance.getUrl().equals(URL_INDEX)) {
@@ -290,6 +301,13 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onDestroy() {
         super.onDestroy();
+        // 모든 핸들러 종료
+        flag_continue_init = false;
+        flag_continue_refresh_beacon = false;
+        flag_continue_check_service = false;
+
+        ReaderActivityOriginal.disconnectReaderStatic();
+        stopScanner();
     }
 
 
@@ -422,9 +440,9 @@ public class MainActivity extends AppCompatActivity {
                     scanLeDevice(false);
 
                     // NFC리더기 발견했으므로 Reader액티비티로 넘어가기
-                    Intent dialogIntent = new Intent(MainActivity.this, ReaderActivity.class);
-                    dialogIntent.putExtra(ReaderActivity.EXTRAS_DEVICE_NAME, device.getName());
-                    dialogIntent.putExtra(ReaderActivity.EXTRAS_DEVICE_ADDRESS,
+                    Intent dialogIntent = new Intent(MainActivity.this, ReaderActivityOriginal.class);
+                    dialogIntent.putExtra(ReaderActivityOriginal.EXTRAS_DEVICE_NAME, device.getName());
+                    dialogIntent.putExtra(ReaderActivityOriginal.EXTRAS_DEVICE_ADDRESS,
                             device.getAddress());
                     dialogIntent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
                     startActivity(dialogIntent);
