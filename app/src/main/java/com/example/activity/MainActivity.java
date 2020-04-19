@@ -34,6 +34,8 @@ import android.webkit.WebChromeClient;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
 import android.widget.BaseAdapter;
+import android.widget.CompoundButton;
+import android.widget.Switch;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -46,7 +48,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity implements CompoundButton.OnCheckedChangeListener {
 
     private Context mContext;
     public String TAG; //logcat 태그
@@ -79,6 +81,9 @@ public class MainActivity extends AppCompatActivity {
     private boolean flag_continue_init; //webview_init 종료 프레그
     private boolean flag_continue_refresh_beacon; //webview_refresh_beacon 종료 프레그
     private boolean flag_continue_check_service; // NFC 리더기 연결체크 서비스 종료 프레그
+
+    private Switch switchNFC;
+    public static boolean state_correspondence;
 
     @Override
 
@@ -114,6 +119,9 @@ public class MainActivity extends AppCompatActivity {
         tv_nfc_state = findViewById(R.id.tv_nfc_state);
         mScanning = false;
         is_live_readeractivity = false;
+
+        switchNFC = findViewById(R.id.switchNFC);
+        switchNFC.setOnCheckedChangeListener((CompoundButton.OnCheckedChangeListener) this);
 
 
     }
@@ -156,7 +164,6 @@ public class MainActivity extends AppCompatActivity {
 
         // NFC리더기 연동상태 확인 핸들러 구현
         h_check_service = new Handler() {
-            @RequiresApi(api = Build.VERSION_CODES.LOLLIPOP)
             public void handleMessage(Message msg) {
 
                 if (msg.what == 0 && flag_continue_check_service) {
@@ -164,26 +171,34 @@ public class MainActivity extends AppCompatActivity {
 
                     if (flag_wv_load_finish && wv_entrance.getUrl().equals(URL_INDEX)) {
                         tv_nfc_state.setVisibility(View.VISIBLE);
+                        switchNFC.setVisibility(View.VISIBLE);
                     } else {
                         tv_nfc_state.setVisibility(View.GONE);
+                        switchNFC.setVisibility(View.GONE);
+
                     }
-                }
 
                 if (!nfc_state.equals("GATT_SUCCESS")) {
                     startScanner();
                     tv_nfc_state.setBackground(getResources().getDrawable(R.drawable.rounded_squre_gray, null));
                     tv_nfc_state.setText(" 리더기 OFF ");
+
                 } else {
                     stopScanner();
                     tv_nfc_state.setBackground(getResources().getDrawable(R.drawable.rounded_squre_blue, null));
                     tv_nfc_state.setText(" 리더기 ON ");
                 }
             }
+            }
+
         };
         h_check_service.sendEmptyMessage(0);
 
         // NFC 리더기 상태 초기화
         nfc_state = " NFC Off ";
+
+
+
 
     }
 
@@ -277,6 +292,27 @@ public class MainActivity extends AppCompatActivity {
         } // for now eat exceptions
         return "";
     }
+
+
+    public void onCheckedChanged (CompoundButton buttonView,
+                                           boolean isChecked){
+        if(isChecked && nfc_state == "GATT_SUCCESS"){
+            Toast.makeText(this,"NFC 통신 가능", Toast.LENGTH_SHORT).show();
+        }else if(isChecked && nfc_state != "GATT_SUCCESS"){
+            Toast.makeText(this,"NFC 통신 불가, NFC 리더기를 먼저 연결해주세요.", Toast.LENGTH_SHORT).show();
+            buttonView.performClick();
+
+        }
+        else if(!isChecked && nfc_state != "GATT_SUCCESS"){
+            Toast.makeText(this,"NFC 통신 불가", Toast.LENGTH_SHORT).show();
+            buttonView.performClick();
+        }else{
+            Toast.makeText(this,"NFC 통신 불가", Toast.LENGTH_SHORT).show();
+        }
+        state_correspondence = isChecked;
+        Log.i(TAG, "Switch_nfc_state:" + nfc_state);
+    }
+
 
     @Override
     protected void onResume() {

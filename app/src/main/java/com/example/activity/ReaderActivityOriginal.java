@@ -385,8 +385,15 @@ public class ReaderActivityOriginal extends AppCompatActivity implements
                             public void run() {
                                 mTxtCardStatus
                                         .setText(getCardStatusString(sta));
-                                //강제 transemit apdu 클릭 소스
-                                mTransmitApdu.performClick();
+
+                                if(MainActivity.state_correspondence){
+                                    //강제 transemit apdu 클릭 소스
+                                    mTransmitApdu.performClick();
+                                }else{
+                                    Log.i(TAG, "NFC 통신 불가");
+                                    Toast.makeText(mContext, "NFC 통신 불가" , Toast.LENGTH_SHORT).show();
+                                }
+
                             }
                         });
                     }
